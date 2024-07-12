@@ -1,17 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Links</title>
-</head>
-<body>
-    <h1>Welcome! Choose a link below:</h1>
-    <ul>
-        <li><a href="https://www.instagram.com/ambicabangles?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram</a></li>
-        <li><a href="mailto:youremail@example.com" target="_blank">Email</a></li>
-        <li><a href="https://www.google.com/maps?q=your+location" target="_blank">Map</a></li>
-        <li><a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a></li>
-    </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ambica Bangles Links</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .container {
+            text-align: center;
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 90%;
+        }
+        .profile-image {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            margin: 10px 0;
+            color: #333;
+            font-size: 24px;
+        }
+        .button {
+            display: block;
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            background: transparent;
+            border: 2px solid #6e8efb;
+            border-radius: 10px;
+            text-align: center;
+            text-decoration: none;
+            color: #6e8efb;
+            font-size: 18px;
+            transition: background 0.3s, color 0.3s;
+        }
+        .button:hover {
+            background: #6e8efb;
+            color: white;
+        }
+        .icon {
+            margin-right: 10px;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img src="" alt="Profile Image" class="profile-image">
+            <h1>@ambicabangles</h1>
+            <a class="button" href="mailto:ambicabymunish@gmail.com" target="_blank">
+                <span class="icon">📧</span>
+                Email
+            </a>
+            <a class="button" href="https://www.facebook.com/AmbicaBangle/" target="_blank">
+                <span class="icon">📘</span>
+                Facebook
+            </a>
+            <a class="button" href="https://www.instagram.com/ambicabangles/" target="_blank">
+                <span class="icon">📸</span>
+                Instagram
+            </a>
+            <a class="button" href="https://www.google.com/maps/dir//Silicon+Valley,+110,+Shivranjani+Cross+Rd,+Ahmedabad,+Gujarat+380015/@23.0248529,72.4474179,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x395e84cfb7c254ef:0x8fc188503fce7d42!2m2!1d72.5298195!2d23.0248742?entry=ttu" target="_blank">
+                <span class="icon">🗺️</span>
+                Map
+            </a>
+            <a class="button" href="https://wa.me/873131" target="_blank">
+                <span class="icon">💬</span>
+                WhatsApp
+            </a>
+        </div>
+    </body>
 </html>
